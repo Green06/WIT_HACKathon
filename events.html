@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+
+		/* Styling the body */
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		
+		/* Styling section, giving background
+			image and dimensions */
+		section {
+			width: 100%;
+			height: 100vh;
+			background:
+url('tinkerhub.png');
+			background-size: cover;
+		}
+		
+		/* Styling the left floatig section */
+		section .leftBox {
+			width: 50%;
+			height: 100%;
+			float: left;
+			padding: 50px;
+			box-sizing: border-box;
+		}
+		
+		/* Styling the background of
+			left floatig section */
+		section .leftBox .content {
+			color: #fff;
+			background: rgba(79, 111, 197, 0.418);
+			padding: 40px;
+			transition: .5s;
+		}
+		
+		/* Styling the hover effect
+			of left floatig section */
+		section .leftBox .content:hover {
+			background: #e91e63;
+		}
+		
+		/* Styling the header of left
+			floating section */
+		section .leftBox .content h1 {
+			margin: 0;
+			padding: 0;
+			font-size: 50px;
+			text-transform: uppercase;
+		}
+		
+		/* Styling the paragraph of
+			left floating section */
+		section .leftBox .content p {
+			margin: 10px 0 0;
+			padding: 0;
+		}
+		
+		/* Styling the three events section */
+		section .events {
+			position: relative;
+			width: 50%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.5);
+			float: right;
+			box-sizing: border-box;
+		}
+		
+		/* Styling the links of
+		the events section */
+		section .events ul {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			margin: 0;
+			padding: 40px;
+			box-sizing: border-box;
+		}
+		
+		/* Styling the lists of the event section */
+		section .events ul li {
+			list-style: none;
+			background: #fff;
+			box-sizing: border-box;
+			height: 200px;
+			margin: 15px 0;
+		}
+		
+		/* Styling the time class of events section */
+		section .events ul li .time {
+			position: relative;
+			padding: 20px;
+			background: #262626;
+			box-sizing: border-box;
+			width: 30%;
+			height: 100%;
+			float: left;
+			text-align: center;
+			transition: .5s;
+		}
+		
+		/* Styling the hover effect
+			of events section */
+		section .events ul li:hover .time {
+			background: #e91e63;
+		}
+		
+		/* Styling the header of time
+			class of events section */
+		section .events ul li .time h2 {
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #fff;
+			font-size: 60px;
+			line-height: 30px;
+		}
+		
+		/* Styling the texts of time
+		class of events section */
+		section .events ul li .time h2 span {
+			font-size: 30px;
+		}
+		
+		/* Styling the details
+		class of events section */
+		section .events ul li .details {
+			padding: 20px;
+			background: #fff;
+			box-sizing: border-box;
+			width: 70%;
+			height: 100%;
+			float: left;
+		}
+		
+		/* Styling the header of the
+		details class of events section */
+		section .events ul li .details h3 {
+			position: relative;
+			margin: 0;
+			padding: 0;
+			font-size: 22px;
+		}
+		
+		/* Styling the lists of details
+		class of events section */
+		section .events ul li .details p {
+			position: relative;
+			margin: 10px 0 0;
+			padding: 0;
+			font-size: 16px;
+		}
+		
+		/* Styling the links of details
+		class of events section */
+		section .events ul li .details a {
+			display: inline-block;
+			text-decoration: none;
+			padding: 10px 15px;
+			border: 1.5px solid #262626;
+			margin-top: 8px;
+			font-size: 18px;
+			transition: .5s;
+		}
+		
+		/* Styling the details class's hover effect */
+		section .events ul li .details a:hover {
+			background: #e91e63;
+			color: #fff;
+			border-color: #e91e63;
+		}
+        .home 
+        {font-size: large;
+            color: #fff;
+            background-color: #fff;
+        }
+        .col-sm-3
+        {font-size: x-large;
+            color: #fff;
+            background-color: #262626;
+        }
+	</style>
+</head>
+
+<body>
+
+    <div class="container-fluid"> -->
+        <div class="row content">
+          <div class="col-sm-3 sidenav">
+            <h4>WIT TINKERHUB</h4>
+            <ul class="nav nav-pills nav-stacked">
+               <button class="home"><a href="index.html">Home</a> </button>
+              
+            </ul><br>
+            <div class="input-group">
+              
+            </button>
+              </span>
+            </div>
+          </div>
+
+	<section>
+		<div class="leftBox">
+			<div class="content">
+				<h1>
+					UPCOMING EVENTS
+				</h1>
+				<p>
+					
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                     and more recently with desktop publishing software like Aldus PageMaker including versions of 
+                     Lorem Ipsum.
+				</p>
+			</div>
+		</div>
+
+		<div class="events">
+			<ul>
+				<li>
+					<div class="time">
+						<h2>
+							15 <br><span>March</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							What is the event about?
+						</h3>
+						<p>
+							 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                              when an unknown printer took a galley of type and scrambled it to make a type
+                               specimen book. 
+						</p>
+
+						<a href="#">View Details</a>
+					</div>
+					<div style="clear: both;"></div>
+				</li>
+
+				<li>
+					<div class="time">
+						<h2>
+							27 <br><span>May</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							What is the event about?
+						</h3>
+						<p>
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                              when an unknown printer took a galley of type and scrambled it to make a type
+                               specimen book.
+						</p>
+						<a href="#">View Details</Details></a>
+					</div>
+					<div style="clear:both;"></div>
+				</li>
+
+				<li>
+					<div class="time">
+						<h2>
+							12 <br><span>August</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							What is the event about?
+						</h3>
+						<p>
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                              when an unknown printer took a galley of type and scrambled it to make a type
+                               specimen book.
+						</p>
+
+						<a href="#">View Details</a>
+					</div>
+					<div style="clear:both;"></div>
+				</li>
+			</ul>
+		</div>
+	</section>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+
+		/* Styling the body */
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		
+		/* Styling section, giving background
+			image and dimensions */
+		section {
+			width: 100%;
+			height: 100vh;
+			background:
+url('tinkerhub.png');
+			background-size: cover;
+		}
+		
+		/* Styling the left floatig section */
+		section .leftBox {
+			width: 50%;
+			height: 100%;
+			float: left;
+			padding: 50px;
+			box-sizing: border-box;
+		}
+		
+		/* Styling the background of
+			left floatig section */
+		section .leftBox .content {
+			color: #fff;
+			background: rgba(0, 0, 0, 0.5);
+			padding: 40px;
+			transition: .5s;
+		}
+		
+		/* Styling the hover effect
+			of left floatig section */
+		section .leftBox .content:hover {
+			background: #e91e63;
+		}
+		
+		/* Styling the header of left
+			floating section */
+		section .leftBox .content h1 {
+			margin: 0;
+			padding: 0;
+			font-size: 50px;
+			text-transform: uppercase;
+		}
+		
+		/* Styling the paragraph of
+			left floating section */
+		section .leftBox .content p {
+			margin: 10px 0 0;
+			padding: 0;
+		}
+		
+		/* Styling the three events section */
+		section .events {
+			position: relative;
+			width: 50%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.5);
+			float: right;
+			box-sizing: border-box;
+		}
+		
+		/* Styling the links of
+		the events section */
+		section .events ul {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			margin: 0;
+			padding: 40px;
+			box-sizing: border-box;
+		}
+		
+		/* Styling the lists of the event section */
+		section .events ul li {
+			list-style: none;
+			background: #fff;
+			box-sizing: border-box;
+			height: 200px;
+			margin: 15px 0;
+		}
+		
+		/* Styling the time class of events section */
+		section .events ul li .time {
+			position: relative;
+			padding: 20px;
+			background: #262626;
+			box-sizing: border-box;
+			width: 30%;
+			height: 100%;
+			float: left;
+			text-align: center;
+			transition: .5s;
+		}
+		
+		/* Styling the hover effect
+			of events section */
+		section .events ul li:hover .time {
+			background: #e91e63;
+		}
+		
+		/* Styling the header of time
+			class of events section */
+		section .events ul li .time h2 {
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #fff;
+			font-size: 60px;
+			line-height: 30px;
+		}
+		
+		/* Styling the texts of time
+		class of events section */
+		section .events ul li .time h2 span {
+			font-size: 30px;
+		}
+		
+		/* Styling the details
+		class of events section */
+		section .events ul li .details {
+			padding: 20px;
+			background: #fff;
+			box-sizing: border-box;
+			width: 70%;
+			height: 100%;
+			float: left;
+		}
+		
+		/* Styling the header of the
+		details class of events section */
+		section .events ul li .details h3 {
+			position: relative;
+			margin: 0;
+			padding: 0;
+			font-size: 22px;
+		}
+		
+		/* Styling the lists of details
+		class of events section */
+		section .events ul li .details p {
+			position: relative;
+			margin: 10px 0 0;
+			padding: 0;
+			font-size: 16px;
+		}
+		
+		/* Styling the links of details
+		class of events section */
+		section .events ul li .details a {
+			display: inline-block;
+			text-decoration: none;
+			padding: 10px 15px;
+			border: 1.5px solid #262626;
+			margin-top: 8px;
+			font-size: 18px;
+			transition: .5s;
+		}
+		
+		/* Styling the details class's hover effect */
+		section .events ul li .details a:hover {
+			background: #e91e63;
+			color: #fff;
+			border-color: #e91e63;
+		}
+	</style>
+</head>
+
+<body>
+	<section>
+		<div class="leftBox">
+			<div class="content">
+				<h1>
+					RECURRING EVENTS
+				</h1>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				</p>
+			</div>
+		</div>
+
+		<div class="events">
+			<ul>
+				<li>
+					<div class="time">
+						<h2>
+							Every <br><span>Tues,Thurs</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							Lightning talks
+						</h3>
+						<p>
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                              when an unknown printer took a galley of type and scrambled it to make a type
+                               specimen book.
+						</p>
+
+						<a href="#">Connect to voice channel</a>
+					</div>
+					<div style="clear: both;"></div>
+				</li>
+
+				<li>
+					<div class="time">
+						<h2>
+							Every <br><span>Saturday</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							Fireside chats
+						</h3>
+						<p>
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                              when an unknown printer took a galley of type and scrambled it to make a type
+                               specimen book.
+						</p>
+						<a href="#">Connect to voice channel</a>
+					</div>
+					<div style="clear:both;"></div>
+				</li>
+
+				<li>
+					<div class="time">
+						<h2>
+							12 <br><span>August</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							She Hacks
+						</h3>
+						<p>
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                              when an unknown printer took a galley of type and scrambled it to make a type
+                               specimen book..
+						</p>
+
+						<a href="#">Connect to discord</a>
+					</div>
+					<div style="clear:both;"></div>
+				</li>
+			</ul>
+		</div>
+	</section>
+</body>
+
+</html>
